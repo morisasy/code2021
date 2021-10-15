@@ -1,0 +1,60 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+a {
+  text-decoration: none;
+}
+
+
+
+body {
+     font-family: sans-serif;
+      margin: 0;
+     display: grid;
+     grid-template-columns: 30% auto;
+}
+header,
+aside,
+main,
+footer{
+      padding: 16px;
+      text-align: center;
+}
+
+header {
+      background-color: #E19DED;
+      grid-template-rows: 60px;
+}
+aside {
+      background: #E35C8B;
+      grid-template-rows: auto;
+}
+footer {
+      background: black;
+      grid-template-rows: 60px;
+}
+
+.nav-item {
+      margin: 0 10px;
+}
+ .nav-item a{
+      text-decoration: none;
+ }
+.nav-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+}
+
+#big-img {
+      background-image: url('image-restaurant.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The President of Tanzania</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+					 initial-scale=1"
+    />
+    <meta name="description" content="Coding Bootcamp 2021" />
+    <meta name="author" content="Risasi" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="app">
+      <header>
+          <nav>
+            <img
+              class = "logo"
+              src="./src/img/logo.jpeg"
+              alt= "Tanzania coat of arms"
+              >
+            </img>
+            <ul class="nav-bar">
+                <li class="nav-item"><a href="./pages/index.html">Home </a></li>
+                <li class="nav-item"><a href="./pages/about.html">About Me </a></li>
+                <li class="nav-item">
+                  <a href="https://github.com/morisasy">Github</a>
+                 </li>
+            </ul>
+          </nav>
+
+      </header>
+      <section>
+        <form>
+          <h2>Contact Me</h2>
+          <div class="input-section">
+            <div class="input-group">
+                <label for ='first-name'>First name </label>
+                <input type="text" name ='first-name' id ="first-name" 
+                class="input" placeholder="First name" />
+             </div>
+             <div class="input-group">
+                <label for ='last-name'>Last name </label>
+                <input type="text" name ='last-name' id ="last-name" 
+                class="input" placeholder="Surname" />
+             </div>
+          </div>
+          
+          <div class="input-section">
+              <input type="radio" id="office" name ="office" value="office" />
+              <label for ='office'>Office</label>
+              <input type="radio" id="remote" name ="remote" value="remote" />
+              <label for ='office'>remote</label>
+              <input type="radio" id="other" name ="other" value="other" />
+              <label for ='other'>Other</label>
+          </div>
+          
+          <div class="input-section">
+              <input type="checkbox" id="contract" name ="contract" value="Contract" />
+              <label for ='contract'>Contract Work</label>
+              <input type="checkbox" id="full-time" name ="full-time" value="full-time" />
+              <label for ='full-time'>Full-time</label>
+              <input type="checkbox" id="sponsorship" name ="sponsorship" value="sponsorship" />
+              <label for ='sponsorship'>sponsorship</label>
+          </div>
+          <input class="button" type="submit" value="submit"></input>
+
+        </form>
+      </section>
+  
+      <footer>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="./pages/about.html">About</a></li>
+          <li class="nav-item"><a href="#">Contact Us</a></li>
+          <li class="nav-item">
+            <a href="https://github.com/morisasy">Github</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>
