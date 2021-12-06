@@ -12,12 +12,11 @@
 **/**/.env
 **/.env
 *.env
-**/open2021//part3/.env
 
-**/**/part1/courseinfo/node_modules
-**/**/part1/unicafe/node_modules
-**/part1/anecdotes/node_modules
-**/**/part2/**/node_modules
+**/**/.codesandbox
+**/**/**/.codesandbox
+.vscode
+
 
 
 # testing

@@ -1,0 +1,26 @@
+{
+  "name": "express-crash-brushup",
+  "version": "1.0.0",
+  "description": "express crush course",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "javascript",
+    "react",
+    "server",
+    "sql",
+    "nosql"
+  ],
+  "author": "Risasi",
+  "license": "ISC"
+}
